@@ -1,14 +1,20 @@
 <template>
-  <div id="app">
-    <h1>Portfólio em desenvolvimento...</h1>
-  </div>
+  <v-app>
+    <v-app-bar app color="white">
+      <h2 color="black">Carol Bastos</h2>
+    </v-app-bar>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
 export default {
   name: "App",
-  components: {},
+
+  data: () => ({
+    //
+  }),
 };
 </script>
-
-<style></style>
