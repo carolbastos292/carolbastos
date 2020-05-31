@@ -1,5 +1,13 @@
+const path = require("path");
+
 module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ]
+  publicPath: '',
+  css: {
+    loaderOptions: {
+      scss: {
+        prependData: `@import '@/assets/scss/config.scss';`
+      }
+    }
+  },
+  outputDir: path.resolve(__dirname, "dist")
 }

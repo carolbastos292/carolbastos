@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <Banner />
-  </div>
+  <main>
+    <v-container class="wrapper">
+      <Banner class="wrapper_banner" />
+    </v-container>
+  </main>
 </template>
 
 <script>
@@ -17,3 +19,12 @@ export default {
   }),
 };
 </script>
+<style lang="scss">
+.wrapper {
+  /* @include debug; */
+}
+.wrapper_banner {
+  margin: 0 auto;
+  text-align: center;
+}
+</style>
