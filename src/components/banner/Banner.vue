@@ -1,14 +1,10 @@
 <template>
   <section class="banner">
     <div class="container">
-      <h2 class="animate__animated animate__tada">
-        Portfólio em desenvolvimento...
+      <h2 class="">
+        Carol Bastos
       </h2>
-      <v-img
-        src="@/assets/img/working.png"
-        class="img-banner"
-        aspect-ratio="1.4"
-      ></v-img>
+      <h3>Developer Frontend</h3>
     </div>
   </section>
 </template>
