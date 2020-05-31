@@ -1,7 +1,9 @@
 <template>
   <section class="banner">
     <div class="container">
-      <h2>Portfólio em desenvolvimento...</h2>
+      <h2 class="animate__animated animate__tada">
+        Portfólio em desenvolvimento...
+      </h2>
       <v-img
         src="@/assets/img/working.png"
         class="img-banner"
